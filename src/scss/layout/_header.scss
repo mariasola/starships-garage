@@ -1,0 +1,10 @@
+.header {
+  font-family: "roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  &_img {
+    width: 170px;
+    height: auto;
+  }
+}

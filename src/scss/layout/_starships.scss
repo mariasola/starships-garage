@@ -1,0 +1,16 @@
+.starship {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10%;
+  width: 200px;
+  height: 300px;
+  margin: 0px 60px 20px 60px;
+  padding: 10px;
+  background-color: white;
+  opacity: 0.5;
+  &_img {
+    width: 80px;
+    height: auto;
+  }
+}

@@ -1,0 +1,23 @@
+// Core
+@import "core/typography";
+// Layout
+@import "layout/starshipsList";
+@import "layout/starships";
+@import "layout/header";
+
+.page {
+  background: url(../images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  .filter {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    &_label {
+      color: white;
+      margin-right: 10px;
+    }
+  }
+}
